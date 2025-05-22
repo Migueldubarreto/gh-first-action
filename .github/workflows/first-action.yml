@@ -8,6 +8,11 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Running as Devops"
+      - name: Two lines
+        run: |
+            echo "First call"
+            echo "Second call"
+            echo "Third call"
       - name: Print bye
         run: echo "Bye Bye"
 
